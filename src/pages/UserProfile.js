@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { useParams, useOutletContext } from "react-router-dom";
 
 function UserProfile() {
   const [user, setUser] = useState({});
